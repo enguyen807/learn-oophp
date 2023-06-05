@@ -5,7 +5,7 @@
                 <?php flash('register_success'); ?>
                 <h2>Login</h2>
                 <p>Please fill in your credentials to login.</p>
-                <form action="<? echo URLROOT; ?>/users/login" method="post">
+                <form action="<?php echo URLROOT; ?>/users/login" method="post">
                     <div class="form-group">
                         <label for="email">Email: <sup class="text-danger">*</sup></label>
                         <input 
